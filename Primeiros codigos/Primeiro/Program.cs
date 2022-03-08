@@ -31,6 +31,23 @@ namespace PrimeiroProgram
             {
                 Console.WriteLine("maior que 1");
             }
+
+            int n1 = 3 + 4 * 2;
+            int n2 = (3 + 4) * 2;
+            int n3 = 17 % 3;
+
+            Console.WriteLine(n1);
+            Console.WriteLine(n2);
+            Console.WriteLine(n3);
+
+            double aa = 1.0, bb = -3.0, cc = -4.0;
+
+            double delta = Math.Pow(bb, 2.0) - 4.0 * aa * cc;
+
+            double x1 = (-bb + Math.Sqrt(delta)) / (2.0 * aa);
+
+            Console.WriteLine(x1);
+
         }
     }
 }

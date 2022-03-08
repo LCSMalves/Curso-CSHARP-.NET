@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Malves\\Documents\\Estudos\\C#\\udemy\\Primeiro\\Primeiro\\Primeiro.csproj",
+      "projectUniqueName": "C:\\Users\\Malves\\Documents\\Estudos\\C#\\Curso-CSHARP\\Primeiros codigos\\Primeiro\\Primeiro.csproj",
       "projectName": "Primeiro",
-      "projectPath": "C:\\Users\\Malves\\Documents\\Estudos\\C#\\udemy\\Primeiro\\Primeiro\\Primeiro.csproj",
+      "projectPath": "C:\\Users\\Malves\\Documents\\Estudos\\C#\\Curso-CSHARP\\Primeiros codigos\\Primeiro\\Primeiro.csproj",
       "packagesPath": "C:\\Users\\Malves\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Malves\\Documents\\Estudos\\C#\\udemy\\Primeiro\\Primeiro\\obj\\",
+      "outputPath": "C:\\Users\\Malves\\Documents\\Estudos\\C#\\Curso-CSHARP\\Primeiros codigos\\Primeiro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

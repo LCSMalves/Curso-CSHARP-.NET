@@ -48,6 +48,28 @@ namespace PrimeiroProgram
 
             Console.WriteLine(x1);
 
+            //entrada de dados 
+
+            Console.WriteLine("Entrada de dados  em C#");
+
+            string frase = Console.ReadLine();
+            string x = Console.ReadLine();
+            string y = Console.ReadLine();
+            string z = Console.ReadLine();
+
+            string[] vet = Console.ReadLine().Split(' ');
+            string p1 = vet[0];
+            string p2 = vet[1];
+            string p3 = vet[2];
+
+            Console.WriteLine("Você digitou: " + frase);
+            Console.WriteLine("X = " + x);
+            Console.WriteLine("Y = " + y);
+            Console.WriteLine("Z = " + z);
+            Console.WriteLine("P1 = " + p1);
+            Console.WriteLine("P2 = " + p2);
+            Console.WriteLine("P3 = " + p3);
+
         }
     }
 }

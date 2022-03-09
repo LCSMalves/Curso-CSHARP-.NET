@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 
 namespace PrimeiroProgram
@@ -48,7 +49,7 @@ namespace PrimeiroProgram
 
             Console.WriteLine(x1);
 
-            //entrada de dados 
+            //entrada de dados parte 1
 
             Console.WriteLine("Entrada de dados  em C#");
 
@@ -69,6 +70,23 @@ namespace PrimeiroProgram
             Console.WriteLine("P1 = " + p1);
             Console.WriteLine("P2 = " + p2);
             Console.WriteLine("P3 = " + p3);
+
+            //entrada de dados parte 2
+
+            int nn1 = int.Parse(Console.ReadLine());
+            char ch = char.Parse(Console.ReadLine());
+            double nn2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            string[] vet2 = Console.ReadLine().Split(' ');
+            string nome = vet2[0];
+            char sexo = char.Parse(vet2[1]);
+            int idade = int.Parse(vet2[2]);
+            double altura = double.Parse(vet2[3], CultureInfo.InvariantCulture);
+            
+            Console.WriteLine("Você digitou:");
+            Console.WriteLine(nn1);
+            Console.WriteLine(ch);    
+            Console.WriteLine(nn2);
 
         }
     }
